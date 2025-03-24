@@ -1,0 +1,28 @@
+.gallery {}
+
+.gallery .gallery-hold {
+    background-color: #696767;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://picsum.photos/1240/500');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gallery .author {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    text-align: center;
+    color: #e5e5e5;
+}
+
+.gallery .title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 160%;
+    text-align: center;
+    color: #f8f9fa;
+}
