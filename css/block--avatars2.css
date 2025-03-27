@@ -1,0 +1,32 @@
+.avatars2 {
+    padding: 30px 0;
+}
+
+.container {}
+
+.avatars2 .avatar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+.avatar-3 {}
+
+.avatar-4 {}
+
+.badge-3 {
+    width: 52px;
+    height: 17px;
+    position: absolute;
+    top: -10;
+    left: 530px;
+}
+
+.badge-4 {
+    width: 52px;
+    height: 17px;
+    position: absolute;
+    top: 0;
+    left: 700px;
+}

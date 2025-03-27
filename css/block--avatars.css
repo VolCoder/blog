@@ -1,0 +1,37 @@
+.avatars {
+    padding: 30px 0;
+}
+
+.container {}
+
+.avatars .avatar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+.avatars .avatar::before {
+    position: absolute;
+    content: icon;
+}
+
+.avatar-1 {}
+
+.avatar-2 {}
+
+.badge-1 {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 0;
+    left: 580px;
+}
+
+.badge-2 {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 0;
+    left: 700px;
+}
