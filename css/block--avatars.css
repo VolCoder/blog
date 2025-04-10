@@ -1,37 +1,75 @@
-.avatars {
-    padding: 30px 0;
+.avatars {}
+
+.avatars .avatar-img {
+    border-radius: 100px;
+    width: 90px;
+    height: 90px;
 }
 
-.container {}
-
+/* v1 */
 .avatars .avatar {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
     position: relative;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.avatars .avatar:hover {
+    transform: scale(1.2);
 }
 
 .avatars .avatar::before {
+    content: '';
+    background-color: #979797;
+    border: 2px solid #ffffff;
+    border-radius: 100px;
+    min-width: 11px;
+    min-height: 11px;
+    display: block;
     position: absolute;
-    content: icon;
+    top: 5px;
+    right: 5px;
 }
 
-.avatar-1 {}
-
-.avatar-2 {}
-
-.badge-1 {
-    width: 14px;
-    height: 14px;
-    position: absolute;
-    top: 0;
-    left: 580px;
+.avatars .avatar.status-work::before {
+    background-color: #F6C687;
 }
 
-.badge-2 {
-    width: 14px;
-    height: 14px;
-    position: absolute;
-    top: 0;
-    left: 700px;
+.avatars .avatar.status-online::before {
+    background-color: #8AD899;
+}
+
+/* v2 */
+.avatars .avatar.status-text {}
+
+.avatars .avatar.status-text .avatar-img {
+    border-radius: 24px;
+}
+
+.avatars .avatar.status-text::before {
+    font-weight: 700;
+    font-size: 8px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    min-width: 52px;
+    min-height: 17px;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: initial;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.avatars .avatar.status-text.status-online::before {
+    content: 'в роботі';
+}
+
+.avatars .avatar.status-text.status-work::before {
+    content: 'вільний';
 }

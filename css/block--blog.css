@@ -1,0 +1,95 @@
+.blog {}
+
+.blog .blog-hold {
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.blog .blog-category {
+    width: 395px;
+}
+
+.blog .blog-content {
+    width: 605px;
+}
+
+.blog .blog-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 160%;
+    color: #212529;
+}
+
+.blog .category-list {
+    margin-top: 20px;
+}
+
+.blog .category-li {
+    margin: 8px 0;
+}
+
+.blog .category-link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 208%;
+    color: #495057;
+}
+
+.blog .category-link::before {
+    content: '+';
+    margin-right: 10px;
+}
+
+.blog .category-link:hover {
+    color: #000;
+}
+
+.card {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.card .card-like-hold {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .card-image {}
+
+.card .card-date {
+    margin-bottom: 15px;
+}
+
+.card .card-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 156%;
+    color: #212529;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.card .card-author,
+.card .card-date,
+.card .card-like,
+.card .card-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    color: #6c757d;
+}
+
+.card .card-text {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.card .card-author {}
+
+.card .card-like {}
+
+.card .card-like-img {}

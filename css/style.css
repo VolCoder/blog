@@ -2,4 +2,6 @@
 @import url('./block--header.css');
 @import url('./block--gallery.css');
 @import url('./block--avatars.css');
-@import url('./block--avatars2.css');
+@import url('./block--blog.css');
+@import url('./block--footer.css');
+@import url('./block--article.css');

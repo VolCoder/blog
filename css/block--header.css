@@ -52,3 +52,27 @@
     width: 100%;
     left: 0;
 }
+
+.header-white {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.header-white .nav-link {
+    color: rgba(248, 249, 250, 0.5);
+}
+
+.header-white .nav-link.active {
+    color: #ffffff;
+}
+
+.header-white .logo-link {
+    background-image: url('../img/logo-sm-white.png');
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+}
+
+.header-white .logo {
+    opacity: 0;
+}

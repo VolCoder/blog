@@ -25,3 +25,11 @@ ul {
     margin: 0 auto;
     padding: 0 30px;
 }
+
+.radius-circle {
+    border-radius: 50%;
+}
+
+.radius-24 {
+    border-radius: 24px;
+}
