@@ -76,3 +76,9 @@
 .header-white .logo {
     opacity: 0;
 }
+
+@media (max-width: 510px) {
+    .header .container {
+        flex-direction: column;
+    }
+}
